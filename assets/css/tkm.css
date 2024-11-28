@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 375px;
+    height: 750px;
+    display: flex;
+    background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+}
+.header{
+    width: 311px;
+    height: 96px;
+    margin: 32px 32px;
+    border: 3px solid #FFFFFF4A;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.header h1{
+    width: 83px;
+    margin: 24px 0px 24px 23px;
+    font-size: 21px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.score{
+    width: 80px;
+    height: 72px;
+    margin: 12px 12px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #F3F3F3 0%, #FFFFFF 100%);
+}
+.score p{
+    font-size: 10px;
+    font-weight: 600;
+    margin: 10px 20px;
+    letter-spacing: 1.5625px;
+    color: #2A45C2;
+}
+.score h1{
+    font-size: 40px;
+    margin: 15px 28px;
+    color: #565468;
+}
+.body{
+    width: 312px;
+    height: 282px;
+    margin: 227px -341px;
+}
+.body img{
+    width: 166px;
+    height: 188px;
+    border: 15px;
+    opacity: 0.2px;
+    margin: 65px 73px;
+    position: relative;
+}
+.btn{
+    width: 129.37px;
+    height: 126.78px;
+    border-radius: 70px;
+    margin: 0px -312px;
+    border: 16px solid #4664F4;
+    position: absolute;
+    cursor: pointer;
+}
+.btn img{
+    width: 48px;
+    height: 56px;
+    top: -47px;
+    left: -55px;
+    z-index: 2;
+    padding: 0.49px 0.36px 0.29px 0.19px;
+}
+.btn2{
+    width: 129.37px;
+    height: 126.78px;
+    border-radius: 70px;
+    margin: 0px -129px;
+    border: 16px solid #EB9F0E;
+    position: absolute;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 48px;
+    height: 56px;
+    top: -47px;
+    left: -55px;
+    z-index: 2;
+    padding: 0.49px 0.36px 0.29px 0.19px;
+}
+.btn3{
+    width: 129.37px;
+    height: 126.78px;
+    border-radius: 70px;
+    margin: 155px -223px;
+    border: 16px solid #DB2E4D;
+    position: absolute;
+    cursor: pointer;
+}
+.btn3 img{
+    width: 48px;
+    height: 56px;
+    top: -47px;
+    left: -55px;
+    z-index: 2;
+    padding: 0.49px 0.36px 0.29px 0.19px;
+}
+.button{
+    width: 128px;
+    height: 40px;
+    margin: 668px 124px;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+    color: white;
+    border: 1px solid #FFFFFF;
+}
+.kazananBilgi{
+    margin: 20px 52px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 1366px;
+        height: 768px;
+    }
+    .header{
+        width: 700px;
+        height: 150px;
+        margin-top: 48px;
+        margin-left: 333px;
+    }
+    .header h1{
+        width: 138px;
+        height: 96px;
+        margin-left: 32px;
+        font-size: 33px;
+        line-height: 1;
+    }
+    .score{
+        width: 150px;
+        height: 114px;
+    }
+    .score p{
+        font-size: 20px;
+        margin: 10px 35px;
+    }
+    .score h1{
+        font-size: 69px;
+        margin: -3px 53px;
+    }
+    .body{
+        margin-top: 314px;
+        margin-left: -517px;
+    }
+    .button{
+        margin-left: 592px;
+    }
+}
